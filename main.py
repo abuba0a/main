@@ -1,14 +1,18 @@
-def test():
-    a = 3
-    b = 7
-    print(a, b)
+def test(*params):
+    print(8)
+    print('dog', 'cat')
+    print(True)
 
 
 test()
 
+print()
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
 
-def test2(c, d, e):
-    print(c, d, e)
 
-
-test2(5, 9, 11)
+n = 7
+print('Факториал', (n), '=', factorial(n))
