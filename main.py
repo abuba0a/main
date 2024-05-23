@@ -1,10 +1,9 @@
-def test(*params):
-    print(8)
-    print('dog', 'cat')
-    print(True)
+def test(city,name,age):
+    print(city, name, age)
 
 
-test()
+test('Волжск', 'Коля', 35)
+
 
 print()
 def factorial(n):
